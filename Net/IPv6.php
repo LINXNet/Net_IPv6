@@ -842,9 +842,18 @@ class Net_IPv6
 
         if (strstr($ip, '.')) {
 
-            $pos      = strrpos($ip, ':');
+           $pos = strrpos($ip, ':');
+
+            if(false === $pos) {
+                return array("", $ip);
+            }
+
             $ip{$pos} = '_';
             $ipPart   = explode('_', $ip);
+            
+            if ($ip{$pos-1} === ":") {
+                $ipPart[0] .= ":";
+            }
 
             return $ipPart;
 
