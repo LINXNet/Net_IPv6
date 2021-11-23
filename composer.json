@@ -1,9 +1,8 @@
 {
     "authors": [
         {
-            "email": "alexander.merz@web.de",
-            "name": "Alexander Merz",
-            "role": "Lead"
+            "email": "dant@linx.net",
+            "name": "Dan Thorpe"
         }
     ],
     "autoload": {
