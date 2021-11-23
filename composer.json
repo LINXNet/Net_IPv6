@@ -16,7 +16,7 @@
         "./"
     ],
     "license": "BSD-2-Clause",
-    "name": "mariopenterman/net_ipv6",
+    "name": "linxnet/net_ipv6",
     "support": {
         "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=Net_IPv6",
         "source": "https://github.com/mariopenterman/Net_IPv6"
